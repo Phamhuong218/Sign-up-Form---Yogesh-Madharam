@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --purple-pink: rgb(141,78,133)
+  }
+  body {
+      background-image: linear-gradient(to right, rgb(49, 27, 146, 0.8), rgba(120, 48, 173, 0.9),rgba(120, 48, 173));
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    .container {
+    background: rgba(58, 4, 90);
+    width: 600px;
+    height: 320px;
+    }
+  /* for header */
+  .header {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    grid-column-gap: 5px;
+    height: 60px
+  }
+  .icon-group {
+    display: grid;
+    grid-template-columns: repeat(2, 50%)
+  }
+  .icon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--purple-pink);
+    position: relative;
+  }
+  .twitter {
+    left: -20px;
+    background-color: rgba(58, 4, 90);
+    box-shadow: -8px 0 rgba(58, 4, 90)
+  }
+  i {
+    font-size: 25px;
+    color: #87CEFA
+  }
+  .text {
+    font-size: 8px;
+    display: flex;
+    align-items: center
+  }
+  /* for header */
+  /* for log-in part */
+  .log-in {
+    width: 50%;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    border: 1px solid var(--purple-pink);
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgba(58, 4, 90);
+    margin-top: 10px;
+   
+  }
+  ::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  p {
+    color: var(--purple-pink);
+    text-align: center;
+    padding: 10px;
+  }
+  .login-btn {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: rgb(60, 179, 113);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white
+  }
+  /* for log-in part */
+  /* for the footer */
+  .footer {
+    border-top: 1px solid var(--purple-pink);
+    padding: 20px 0;
+  }
+  .account-btn {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #ffda03;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px
+  }
+  /* for the footer */
